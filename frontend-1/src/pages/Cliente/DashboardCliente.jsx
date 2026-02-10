@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-export const Dashboard = () => {
+export const DashboardCliente = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
